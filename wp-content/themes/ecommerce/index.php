@@ -250,7 +250,7 @@
 					<!-- First SLIDE -->
 					<li data-transition="random" data-slotamount="10" data-masterspeed="300">
 					<!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
-					<img src="upload/revolution/slider1.jpg" data-fullwidthcentering="on" alt="slide">
+					<img src="<?php echo get_template_directory_uri();?>/upload/revolution/slider1.jpg" data-fullwidthcentering="on" alt="slide">
 					<!-- THE CAPTIONS IN THIS SLDIE -->
 					<div class="caption small_text lft" 
 					data-x="center" 
@@ -273,7 +273,7 @@
 					data-end="7200" 
 					data-endspeed="300" 
 					data-endeasing="easeInSine">
-						<img src="upload/revolution/s-border.png" alt="Image 1">
+						<img src="<?php echo get_template_directory_uri();?>/upload/revolution/s-border.png" alt="Image 1">
 					</div>
 
 					<div class="caption big_white lfb stt" 
@@ -305,7 +305,7 @@
 					<!-- second SLIDE -->
 					<li data-transition="random" data-slotamount="10" data-masterspeed="300">
 					<!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
-					<img src="upload/revolution/slider2.jpg" data-fullwidthcentering="on" alt="slide">
+					<img src="<?php echo get_template_directory_uri();?>/upload/revolution/slider2.jpg" data-fullwidthcentering="on" alt="slide">
 					<!-- THE CAPTIONS IN THIS SLDIE -->
 					<div class="caption small_text lft" 
 					data-x="center" 
@@ -328,7 +328,7 @@
 					data-end="7200" 
 					data-endspeed="300" 
 					data-endeasing="easeInSine">
-						<img src="upload/revolution/s-border.png" alt="Image 1">
+						<img src="<?php echo get_template_directory_uri();?>/upload/revolution/s-border.png" alt="Image 1">
 					</div>
 
 					<div class="caption big_white lfb stt" 
@@ -361,7 +361,7 @@
 					<!-- third SLIDE -->
 					<li data-transition="random" data-slotamount="10" data-masterspeed="300">
 					<!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
-					<img src="upload/revolution/slider3.jpg" data-fullwidthcentering="on" alt="slide">
+					<img src="<?php echo get_template_directory_uri();?>/upload/revolution/slider3.jpg" data-fullwidthcentering="on" alt="slide">
 					<!-- THE CAPTIONS IN THIS SLDIE -->
 					<div class="caption modern_small_text_dark lft" 
 					data-x="710" 
@@ -398,7 +398,7 @@
 					data-end="7200" 
 					data-endspeed="300" 
 					data-endeasing="easeInSine">
-						<img src="upload/revolution/s-border2.png" alt="Image 1">
+						<img src="<?php echo get_template_directory_uri();?>/upload/revolution/s-border2.png" alt="Image 1">
 					</div>
 
 					<div class="caption lfb stt" 
@@ -438,7 +438,7 @@
 							<div class="coll-item clearfix">
 
 								<div class="coll-box">
-										<a href="#"><img src="upload/collection1.jpg" alt=""></a>
+										<a href="#"><img src="<?php echo get_template_directory_uri();?>/upload/collection1.jpg" alt=""></a>
 										<div class="coll-text">
 											<span>Summer Collection</span>
 											<p>For Women</p>
@@ -453,7 +453,7 @@
 						<div class="coll-item clearfix">
 
 							<div class="coll-box">
-								<a href="#"><img src="upload/collection2.jpg" alt=""></a>
+								<a href="#"><img src="<?php echo get_template_directory_uri();?>/upload/collection2.jpg" alt=""></a>
 								<div class="coll-text">
 									<span>Collection 2014</span>
 									<p>Accessories</p>
@@ -467,7 +467,7 @@
 						<div class="coll-item clearfix">
 
 							<div class="coll-box">
-								<a href="#"><img src="upload/collection3.jpg" alt=""></a>
+								<a href="#"><img src="<?php echo get_template_directory_uri();?>/upload/collection3.jpg" alt=""></a>
 								<div class="coll-text">
 									<span>Starts From $150</span>
 									<p>Men Collection</p>
@@ -506,8 +506,8 @@
 							<ul class="filter-container clearfix">
 								<li class="class1">
 									<div class="arrival-overlay">
-										<img src="upload/arrival1.jpg" alt="">
-										<img src="upload/new.png" alt="" class="new">
+										<img src="<?php echo get_template_directory_uri();?>/upload/arrival1.jpg" alt="">
+										<img src="<?php echo get_template_directory_uri();?>/upload/new.png" alt="" class="new">
 										<div class="arrival-mask">
 											<a href="#" class="medium-button button-red add-cart">Add to Cart</a>
 											<a href="#" class="wishlist"><i class="fa fa-heart"></i> Add to Wishlist</a>
@@ -520,13 +520,13 @@
 											<li><span class="low-price">$899.00</span></li>
 										</ul>
 										
-										<div class="stars"><img src="upload/stars.png" alt=""></div>
+										<div class="stars"><img src="<?php echo get_template_directory_uri();?>/upload/stars.png" alt=""></div>
 									</div>
 								</li>
 								<li class="class2">
 									<div class="arrival-overlay">
-										<img src="upload/arrival2.jpg" alt="">
-										<img src="upload/sale.png" alt="" class="sale">
+										<img src="<?php echo get_template_directory_uri();?>/upload/arrival2.jpg" alt="">
+										<img src="<?php echo get_template_directory_uri();?>/upload/sale.png" alt="" class="sale">
 										<div class="arrival-mask">
 											<a href="#" class="medium-button button-red add-cart">Add to Cart</a>
 											<a href="#" class="wishlist"><i class="fa fa-heart"></i> Add to Wishlist</a>
@@ -540,12 +540,12 @@
 											<li><span class="low-price">$899.00</span></li>
 										</ul>
 										
-										<div class="stars"><img src="upload/stars.png" alt=""></div>
+										<div class="stars"><img src="<?php echo get_template_directory_uri();?>/upload/stars.png" alt=""></div>
 									</div>
 								</li>
 								<li class="class3">
 									<div class="arrival-overlay">
-										<img src="upload/arrival3.jpg" alt="">
+										<img src="<?php echo get_template_directory_uri();?>/upload/arrival3.jpg" alt="">
 										<div class="arrival-mask">
 											<a href="#" class="medium-button button-red add-cart">Add to Cart</a>
 											<a href="#" class="wishlist"><i class="fa fa-heart"></i> Add to Wishlist</a>
@@ -558,13 +558,13 @@
 											<li><span class="low-price">$899.00</span></li>
 										</ul>
 										
-										<div class="stars"><img src="upload/stars.png" alt=""></div>
+										<div class="stars"><img src="<?php echo get_template_directory_uri();?>/upload/stars.png" alt=""></div>
 									</div>
 								</li>
 								<li class="class4">
 									<div class="arrival-overlay">
-										<img src="upload/arrival4.jpg" alt="">
-										<img src="upload/out.png" alt="" class="out">
+										<img src="<?php echo get_template_directory_uri();?>/upload/arrival4.jpg" alt="">
+										<img src="<?php echo get_template_directory_uri();?>/upload/out.png" alt="" class="out">
 										<div class="arrival-mask">
 											<a href="#" class="medium-button button-red add-cart">Add to Cart</a>
 											<a href="#" class="wishlist"><i class="fa fa-heart"></i> Add to Wishlist</a>
@@ -578,13 +578,13 @@
 											<li><span class="low-price">$899.00</span></li>
 										</ul>
 										
-										<div class="stars"><img src="upload/stars.png" alt=""></div>
+										<div class="stars"><img src="<?php echo get_template_directory_uri();?>/upload/stars.png" alt=""></div>
 									</div>
 								</li>
 								<li class="class1">
 									<div class="arrival-overlay">
-										<img src="upload/arrival5.jpg" alt="">
-										<img src="upload/sale.png" alt="" class="sale">
+										<img src="<?php echo get_template_directory_uri();?>/upload/arrival5.jpg" alt="">
+										<img src="<?php echo get_template_directory_uri();?>/upload/sale.png" alt="" class="sale">
 										<div class="arrival-mask">
 											<a href="#" class="medium-button button-red add-cart">Add to Cart</a>
 											<a href="#" class="wishlist"><i class="fa fa-heart"></i> Add to Wishlist</a>
@@ -597,12 +597,12 @@
 											<li><span class="low-price">$899.00</span></li>
 										</ul>
 										
-										<div class="stars"><img src="upload/stars.png" alt=""></div>
+										<div class="stars"><img src="<?php echo get_template_directory_uri();?>/upload/stars.png" alt=""></div>
 									</div>
 								</li>
 								<li class="class2">
 									<div class="arrival-overlay">
-										<img src="upload/arrival6.jpg" alt="">
+										<img src="<?php echo get_template_directory_uri();?>/upload/arrival6.jpg" alt="">
 										<div class="arrival-mask">
 											<a href="#" class="medium-button button-red add-cart">Add to Cart</a>
 											<a href="#" class="wishlist"><i class="fa fa-heart"></i> Add to Wishlist</a>
@@ -615,12 +615,12 @@
 											<li><span class="low-price">$899.00</span></li>
 										</ul>
 										
-										<div class="stars"><img src="upload/stars.png" alt=""></div>
+										<div class="stars"><img src="<?php echo get_template_directory_uri();?>/upload/stars.png" alt=""></div>
 									</div>
 								</li>
 								<li class="class3">
 									<div class="arrival-overlay">
-										<img src="upload/arrival7.jpg" alt="">
+										<img src="<?php echo get_template_directory_uri();?>/upload/arrival7.jpg" alt="">
 										<div class="arrival-mask">
 											<a href="#" class="medium-button button-red add-cart">Add to Cart</a>
 											<a href="#" class="wishlist"><i class="fa fa-heart"></i> Add to Wishlist</a>
@@ -634,12 +634,12 @@
 											<li><span class="low-price">$899.00</span></li>
 										</ul>
 										
-										<div class="stars"><img src="upload/stars.png" alt=""></div>
+										<div class="stars"><img src="<?php echo get_template_directory_uri();?>/upload/stars.png" alt=""></div>
 									</div>
 								</li>
 								<li class="class4">
 									<div class="arrival-overlay">
-										<img src="upload/arrival8.jpg" alt="">
+										<img src="<?php echo get_template_directory_uri();?>/upload/arrival8.jpg" alt="">
 										<div class="arrival-mask">
 											<a href="#" class="medium-button button-red add-cart">Add to Cart</a>
 											<a href="#" class="wishlist"><i class="fa fa-heart"></i> Add to Wishlist</a>
@@ -653,7 +653,7 @@
 											<li><span class="low-price">$899.00</span></li>
 										</ul>
 										
-										<div class="stars"><img src="upload/stars.png" alt=""></div>
+										<div class="stars"><img src="<?php echo get_template_directory_uri();?>/upload/stars.png" alt=""></div>
 									</div>
 								</li>
 							</ul>
@@ -688,7 +688,7 @@
 						<div class="col-md-4">
 							<div class="blog-item">
 								<div class="blog-img">
-									<a href="#"><img src="upload/blog/blog1.jpg" alt=""></a>
+									<a href="#"><img src="<?php echo get_template_directory_uri();?>/upload/blog/blog1.jpg" alt=""></a>
 									<div class="calendar">
 										<p>02</p>
 										<span>dec</span>	
@@ -702,7 +702,7 @@
 						<div class="col-md-4">
 							<div class="blog-item">
 								<div class="blog-img">
-									<a href="#"><img src="upload/blog/blog2.jpg" alt=""></a>
+									<a href="#"><img src="<?php echo get_template_directory_uri();?>/upload/blog/blog2.jpg" alt=""></a>
 									<div class="calendar">
 										<p>12</p>
 										<span>jan</span>	
@@ -716,7 +716,7 @@
 						<div class="col-md-4">
 							<div class="blog-item">
 								<div class="blog-img">
-									<a href="#"><img src="upload/blog/blog3.jpg" alt=""></a>
+									<a href="#"><img src="<?php echo get_template_directory_uri();?>/upload/blog/blog3.jpg" alt=""></a>
 									<div class="calendar">
 										<p>18</p>
 										<span>MAr</span>	
@@ -736,22 +736,22 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-2">
-							<a href="#"><img src="upload/partners1.png" alt=""></a>
+							<a href="#"><img src="<?php echo get_template_directory_uri();?>/upload/partners1.png" alt=""></a>
 						</div>
 						<div class="col-sm-2">
-							<a href="#"><img src="upload/partners2.png" alt=""></a>
+							<a href="#"><img src="<?php echo get_template_directory_uri();?>/upload/partners2.png" alt=""></a>
 						</div>
 						<div class="col-sm-2">
-							<a href="#"><img src="upload/partners3.png" alt=""></a>
+							<a href="#"><img src="<?php echo get_template_directory_uri();?>/upload/partners3.png" alt=""></a>
 						</div>
 						<div class="col-sm-2">
-							<a href="#"><img src="upload/partners4.png" alt=""></a>
+							<a href="#"><img src="<?php echo get_template_directory_uri();?>/upload/partners4.png" alt=""></a>
 						</div>
 						<div class="col-sm-2">
-							<a href="#"><img src="upload/partners5.png" alt=""></a>
+							<a href="#"><img src="<?php echo get_template_directory_uri();?>/upload/partners5.png" alt=""></a>
 						</div>
 						<div class="col-sm-2">
-							<a href="#"><img src="upload/partners6.png" alt=""></a>
+							<a href="#"><img src="<?php echo get_template_directory_uri();?>/upload/partners6.png" alt=""></a>
 						</div>
 					</div>
 				</div>
@@ -843,7 +843,7 @@
 							© 2014 SweetPick Elegant Shop  |  <a href="#">Designed by Alexander Samokhin</a>
 						</div>
 						<div class="payment">
-							<a href="#"><img src="upload/payments.png" alt=""></a>
+							<a href="#"><img src="<?php echo get_template_directory_uri();?>/upload/payments.png" alt=""></a>
 						</div>
 						<div class="clear"></div>
 					</div>
