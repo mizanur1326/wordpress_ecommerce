@@ -1,3 +1,4 @@
+<?php echo get_template_directory_uri();?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,16 +16,16 @@
 	<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 
 
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="screen">	
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/bootstrap.css" media="screen">	
 
     <!-- REVOLUTION BANNER CSS SETTINGS --> 
-    <link rel="stylesheet" type="text/css" href="css/fullwidth.css" media="screen" />
-	<link rel="stylesheet" type="text/css" href="css/settings.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/fullwidth.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/settings.css" media="screen" />
 
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/font-awesome.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/jquery.bxslider.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/style.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/responsive.css" media="screen">
 	
 	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 	<link rel="icon" href="images/favicon.png" type="image/x-icon">
@@ -79,13 +80,13 @@
 						</ul>
 						<div class="mobile-version">
 							<div class="cart-icon">
-								<a href="#"><img src="images/cart-white.png" alt="">
+								<a href="#"><img src="<?php echo get_template_directory_uri();?>/images/cart-white.png" alt="">
 								<span>8 Items</span></a>	
 							</div>
 						</div>
 
 				        <div id="login-box" class="login-popup">
-				        	<a href="#" class="close"><img src="images/delete.png" class="btn_close" title="Close Window" alt="Close" /></a>
+				        	<a href="#" class="close"><img src="<?php echo get_template_directory_uri();?>/images/delete.png" class="btn_close" title="Close Window" alt="Close" /></a>
 				         	<form method="post" class="signin" action="#">
 				                <fieldset class="textbox">
 					                <h4 class="login-title">LOGIN </h4>
@@ -133,27 +134,27 @@
 					</div>
 
 					<div class="logo">
-						<a href="index.html"><img src="images/logo.png" alt=""></a>
+						<a href="index.html"><img src="<?php echo get_template_directory_uri();?>/images/logo.png" alt=""></a>
 					</div>
 					
 					<div class="cart">
 						<a href="#" class="cartmain"> Cart  /  $ 1 199.00</a>
 						<div class="card-icon">
-							<img src="images/cart.png" alt="">
+							<img src="<?php echo get_template_directory_uri();?>/images/cart.png" alt="">
 							<div class="shop-items">10</div>
 						</div>
 						<div class="hover-cart">
 
 							<div class="hover-box">
 
-								<a href="#"><img src="images/hover1.png" alt="" class="left-hover"></a>
+								<a href="#"><img src="<?php echo get_template_directory_uri();?>/images/hover1.png" alt="" class="left-hover"></a>
 								<div class="hover-details">
 									<p>Grey California Dress</p>
 									<span>$ 3 199.00</span>
 									<div class="quantity">Quantity: 1</div>
 								</div>
 								
-								<a href="#" class="right-hover"><img src="images/delete.png" alt=""></a>
+								<a href="#" class="right-hover"><img src="<?php echo get_template_directory_uri();?>/images/delete.png" alt=""></a>
 
 								<div class="clear"></div>
 
@@ -161,14 +162,14 @@
 
 							<div class="hover-box bd0">
 
-								<img src="images/hover2.png" alt="" class="left-hover">
+								<img src="<?php echo get_template_directory_uri();?>/images/hover2.png" alt="" class="left-hover">
 								<div class="hover-details">
 									<p>Grey California Dress</p>
 									<span>$ 3 199.00</span>
 									<div class="quantity">Quantity: 1</div>
 								</div>
 
-								<a href="#" class="right-hover"><img src="images/delete.png" alt=""></a>
+								<a href="#" class="right-hover"><img src="<?php echo get_template_directory_uri();?>/images/delete.png" alt=""></a>
 
 								<div class="clear"></div>
 
@@ -861,16 +862,16 @@
         
 
 
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/jquery.superfish.js"></script>
-	<script type="text/javascript" src="js/jquery.bxslider.js"></script>
-	<script type="text/javascript" src="js/bootstrap.js"></script>
-	<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
-  	<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
-	<script type="text/javascript" src="js/jquery.imagesloaded.min.js"></script>
+	<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/jquery.min.js"></script>
+	<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/jquery.superfish.js"></script>
+	<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/jquery.bxslider.js"></script>
+	<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/bootstrap.js"></script>
+	<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/jquery.nicescroll.min.js"></script>
+  	<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/jquery.isotope.min.js"></script>
+	<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/jquery.imagesloaded.min.js"></script>
      <!-- jQuery KenBurn Slider  -->
-    <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/jquery.themepunch.revolution.min.js"></script>
+	<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/script.js"></script>
 
 
 	<!--
