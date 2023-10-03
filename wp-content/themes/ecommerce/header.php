@@ -196,7 +196,7 @@
 				<!-- Navigation -->
 				<nav id="nav">
                     <ul id="navlist" class="sf-menu clearfix">
-						<li class="current"><a href="index.html">Home</a></li>
+						<li><a href="index.html">Home</a></li>
 						<li><a href="#">Shop</a></li>
 						<li><a href="#">Women</a></li>
                         <li>
